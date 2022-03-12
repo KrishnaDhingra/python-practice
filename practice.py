@@ -1,3 +1,6 @@
+from unicodedata import numeric
+
+
 def checkOddEven(num):
     if num % 2 == 0:
         return "The number is even"
