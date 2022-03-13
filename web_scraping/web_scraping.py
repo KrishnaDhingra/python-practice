@@ -15,4 +15,5 @@ for trs in tbody:
     information["price"] = price.div.contents[0]
     nfts.append(information)
 
-print(nfts)
+for nft in nfts:
+    print(nft)
